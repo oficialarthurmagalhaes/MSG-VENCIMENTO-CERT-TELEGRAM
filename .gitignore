@@ -1,0 +1,9 @@
+# Conteúdo do arquivo .gitignore
+# Exclui o arquivo que contém suas credenciais
+.env
+dados.xlsx
+
+# Exclui pastas de cache do Python (também é bom ter)
+__pycache__/
+*.pyc
+venv/
