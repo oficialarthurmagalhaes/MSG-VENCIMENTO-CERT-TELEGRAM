@@ -24,7 +24,7 @@ if not TOKEN or not CHAT_ID:
 
 # --- 2. FUNÇÃO DE ENVIO (Com suporte a HTML) ---
 def enviar_telegram(mensagem):
-    """Realiza a chamada à API para enviar a mensagem (suporta HTML)."""
+#Realiza a chamada à API para enviar a mensagem (suporta HTML).
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     dados = {
         "chat_id": CHAT_ID,
