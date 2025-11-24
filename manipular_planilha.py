@@ -84,7 +84,7 @@ def processar_e_enviar_alertas():
             if isinstance(dias, (int, float)) and 0 < dias <= 7:
                 
                 # Monta a linha de alerta com negrito (<b>)
-                aviso_linha = f"<b>- {empresa}</b> ({codigo}) vence em {dias} dias! [{validade_formatada}]\n"
+                aviso_linha = f"<b>- ({codigo}) {empresa}</b> vence em {dias} dias! [{validade_formatada}]\n"
                 
                 # Acumula a linha no relatório detalhado
                 relatorio_detalhado += aviso_linha
